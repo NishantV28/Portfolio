@@ -1,0 +1,12 @@
+{
+  "name": "nishant-varshney-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nishant Varshney — personal developer and AI engineering portfolio",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "check": "node --check app.js && node --check projects.js && node --check sculpture.js && node --check motion.js && node --check server.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
